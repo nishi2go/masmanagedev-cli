@@ -19,6 +19,7 @@ var schema = {
   _description: "Customization archive publishment support",
   properties: {
     buildName: {
+      _prompt: false,
       required: true,
       description: "Customization archive build config name.",
       _cli: "build-name",
